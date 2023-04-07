@@ -1,0 +1,45 @@
+body{
+    background: linear-gradient(to left,#F7C8E0,
+    #DFFFD8,
+    #B4E4FF,
+    #95BDFF);
+}
+#container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+h1 , h2{
+    text-align: center;
+    font-family: monospace;
+    letter-spacing: 2ch;
+    color:violet;
+}
+.card{
+    display: inline-block;
+    text-align: center;
+    border-radius:5%;
+    border: 2px solid rgb(73, 60, 77);
+    box-shadow: 2px 2px 8px 8px #de8484;
+    margin: 4%;
+    width: 150px;
+    height: 250px;
+}
+.pokemon {
+    display: inline-block;
+    text-align: center;
+    border-radius: 50%;
+    border: 1px solid rgb(25, 56, 33);
+    box-shadow: 3px 8px 12px #000000;
+    margin: 1%;
+    margin-top: 20%;
+    background-color: gold;
+}
+.pokemon img {
+    display: block;
+}
+span{
+    display: block;
+    margin-top: 20%;
+    color: azure;
+}
