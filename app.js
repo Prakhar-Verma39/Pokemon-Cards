@@ -1,4 +1,4 @@
-// https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png
+
 try{
 for(let i = 1; i < 1009 ; i++){    
     const outer = document.createElement('div');
