@@ -1,6 +1,6 @@
 
 try{
-for(let i = 1; i < 20 ; i++){    
+for(let i = 1; i < 6 ; i++){    
     const outer = document.createElement('div');
     const inner = document.createElement('div');
     const detail = document.createElement('span');
